@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔐 User Authentication – Next.js + NextAuth + Tailwind CSS
 
-## Getting Started
+## 📌 Overview
+This project implements full user authentication (Signup, Email Verification, and Sign In) using Next.js, NextAuth, and Tailwind CSS.
+The task is part of the A2SV Web Track Assignments – Task 8.
+The authentication features implemented:
 
-First, run the development server:
+- User Signup
+- Email OTP Verification
+- User Sign In
+- Form validation and error handling
+- Clean and accessible UI based on the provided Figma design
 
+## 🧠 Technologies Used
+- Next.js
+- NextAuth
+- Tailwind CSS
+- Redux Toolkit
+
+## 📥 Installation & Setup
+1. Clone the repository
+```bash
+git clone https://github.com/PlayzAhmed/authentication-a2sv-task.git
+```
+2. Install dependencies
+```bash
+npm install
+```
+3. Run the development server
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+The app runs at:
+👉 http://localhost:3000/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📚 Learning Objectives
+By completing this project, I practiced:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Integrating real authentication APIs
+- Implementing NextAuth credentials authentication flow
+- Secure token handling
+- Multi-step authentication (signup → OTP → login)
+- Client-side form validation
+- Clean UI design and error handling
+- Writing clean, scalable code for production-level apps
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🖼 Screenshots
 
-## Learn More
+**Sign Up Page**
 
-To learn more about Next.js, take a look at the following resources:
+<img width="2879" height="1341" alt="image" src="https://github.com/user-attachments/assets/a4fda1b3-972a-4f38-9218-2d1271f402b7" />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Email Verification Page**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<img width="2865" height="1334" alt="image" src="https://github.com/user-attachments/assets/41c4f7a3-90cb-4279-99e3-e83c6bd581bc" />
 
-## Deploy on Vercel
+**Sign In Page**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img width="2870" height="1333" alt="image" src="https://github.com/user-attachments/assets/9cdb0715-08c4-47db-be19-b721b052e59c" />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Protected Page**
+
+<img width="2879" height="1332" alt="image" src="https://github.com/user-attachments/assets/ab7438f3-c844-4093-bb23-9fbcba710ddd" />
